@@ -1,0 +1,199 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    *{ padding: 0; margin: 0; box-sizing: border-box; }
+    a{ text-decoration: none; color: #333; }
+    li{ list-style: none; }
+    img{ border: none; vertical-align: top; }
+    body{ font-family: 'Pretendard-Regular'; }
+    .clearfix::after{ content: ''; display: block; clear: both; }
+
+    .wrapper{
+        width: 500px;
+        margin: auto;
+        filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    }
+    #s01{
+        color:#61188B;
+    }
+    body{
+        background-color: #f6f6f6;
+    }
+
+    /* header css */
+
+    header{
+        display: flex;
+        border-bottom: 1px solid #61188B;
+        justify-content: end;
+        background-color: #fff;
+    }
+    section{
+        height: 500px;
+       
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    .gnb{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 14px;
+        width: 200px;
+    }
+    .gnb ul{
+        display: flex;
+        height: 100%;
+        justify-content: end;
+        gap: 10px;
+        margin-right: 10px;
+        align-items: flex-end;
+        padding-bottom: 5px;
+    }
+
+    .gnb a:hover{
+        color: #61188B;
+        font-weight: 900;
+    }
+    .cont_header{
+        width: 100%;
+        height:50px;
+        border-bottom: 1px solid #61188B;
+        text-align: center;
+        line-height: 50px;
+    }
+    .content_form{
+        width: 100%;
+        height:500px;
+        background-color: white;
+        
+    }
+    .insert_form button{
+        padding: 7px 14px;
+        background-color: #a470c2;
+        border:none;
+        border-radius: 5px;
+        color: #fff;
+        
+    }
+    #e_form b{
+        color: #a470c2;
+        font-size: 17px;
+    }
+    #e_form span{
+        color : red;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    #e_form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;     
+    }
+    .insert_form{
+        width : 80%;
+        height:70px;
+        border-radius: 5px;
+        border: #a470c2;
+        background-color:#fff;
+        margin: 10px;
+    }
+    .insert_form input{
+        width : 70%;
+        height: 30px;
+        margin-top: 5px;
+    }
+    .s_form{
+        width:80%;
+        height:90px;
+        background-color:#fff;
+    }
+    .s_form input{
+        margin-top: 6px;
+        width:47%;
+        height: 30px;
+    }
+    .s_form #s01{
+        background-color: #a470c2;
+        border:none;
+        border-radius: 5px;
+        color: #fff;
+    }
+    .insert_form01{
+        background-color:#fff;
+        width:auto;
+        height: auto;
+        margin-top: 15px;
+        color: #a470c2;
+        
+    }
+    .insert_form01 b{
+        margin-left: 10px;
+    }
+    .insert_form01 a{
+        margin-left: 10px;
+        color:cornflowerblue
+    }
+    .insert_form01 a:hover{
+        cursor: pointer;
+    }
+    .s_form .emails{
+        background-color: #a470c2;
+        border:none;
+        border-radius: 5px;
+        color: #fff;
+        
+    }
+    #sub_form{
+        width : 400px;
+        height: 100px;
+    }
+    #sub_form #request01{
+        width : 100%;
+        height: 40px;
+        margin-top: 20px;
+    }
+    footer{
+        width: 100%;
+        height: 150px;
+        border-top: 1px solid #61188B;
+        background-color: darkorange;
+        background-color: #ffffff;
+    }
+    #request01{
+        background-color: #61188B;
+        border-radius: 5px;
+        color: #fff;
+        font-size: large;
+        text-align : center;
+    }
+
+    .footer_nav ul{
+        display: flex;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 20px;
+        justify-content: center;
+        gap: 10px;
+        padding-top: 10px;
+    }
+
+    .footer_nav a:hover{
+        color: #61188B;
+        font-weight: 900;
+    }
+
+    .jjim_info{
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 18px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
