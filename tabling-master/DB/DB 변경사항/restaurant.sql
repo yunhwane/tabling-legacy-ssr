@@ -1,0 +1,2 @@
+ALTER TABLE RESTAURANT ADD wating date;
+ALTER TABLE RESTAURANT ADD reservation date;
